@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background: #171717;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #090909;
+  padding: 18px 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.subtitulo {
+  color: #e63946;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+h1 {
+  max-width: 750px;
+  margin: 0 auto 20px;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: bold;
+}
+
+.descricao {
+  max-width: 600px;
+  margin: 0 auto 28px;
+  color: #c9c9c9;
+}
+
+.btn-danger {
+  background: #e63946;
+  border-color: #e63946;
+}
+
+.cartao {
+  height: 100%;
+  padding: 28px 18px;
+  background: #222;
+  border: 1px solid #383838;
+  border-radius: 10px;
+}
+
+.cartao h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.cartao p {
+  margin: 0;
+  color: #c9c9c9;
+}
+
+footer {
+  padding: 22px;
+  background: #090909;
+  color: #aaa;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  main {
+    padding-top: 55px;
+  }
+}
